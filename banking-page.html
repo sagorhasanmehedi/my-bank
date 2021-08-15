@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>banking-page</title>
+    <!-- telwind style -->
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <header>
+        <h1 class="text-6xl text-center mt-28">Amar taka mane <span class="font-semibold text-pink-500">Chacchur Taka
+                !!</span>
+        </h1>
+        <section class="w-3/4   mx-auto grid grid-cols-3 gap-4 mt-16">
+            <div class="bg-green-300 p-28 text-center text-white rounded">
+                <h2 class="text-3xl">Diposit</h2>
+                <h3 class="text-6xl mt-1">$<span id="diposittotal">500</span></h3>
+            </div>
+            <div class="bg-red-300 p-28 text-center text-white rounded">
+                <h2 class="text-3xl">Withdrow</h2>
+                <h3 class="text-6xl mt-1">$<span id="Withdrowaria">200</span></h3>
+            </div>
+            <div class="bg-blue-300 p-28 text-center text-white rounded">
+                <h2 class="text-3xl">Balance</h2>
+                <h3 class="text-6xl mt-1">$<span id="balance">100</span></h3>
+            </div>
+
+
+        </section>
+        <section class="w-3/4   mx-auto grid grid-cols-2 gap-4 mt-8">
+            <div class="bg-pink-400 p-10 rounded">
+                <h2 class="text-4xl font-semibold text-white text-center my-5">Diposit</h2>
+                <input class="my-1 mt-3 p-2 w-3/4 rounded border-2 border-gray-100 ml-5 pl-3" type=" text" name=""
+                    id="dipositinput" placeholder="Diposit Your mony">
+                <button id="dipositbutton"
+                    class="bg-gradient-to-r from-green-400 to-blue-500 text-xl  py-2 px-6 mt-1 ml-1 text-white font-normal  rounded bg-gradient-to-r from-green-400 to-blue-500 focus:from-pink-500 focus:to-yellow-500">Confarm</button>
+            </div>
+            <div class="bg-purple-400 p-10 rounded">
+                <h2 class="text-4xl font-semibold text-white text-center my-5">Withdrow</h2>
+                <input class="my-1 mt-3 p-2 w-3/4 rounded border-2 border-gray-100 ml-5 pl-3" type=" text" name=""
+                    id="Withdrowinput" placeholder="Withdrow Your mony">
+                <button id="Withdrow"
+                    class="bg-gradient-to-r from-green-400 to-blue-500 text-xl  py-2 px-6 mt-1 ml-1 text-white font-normal  rounded bg-gradient-to-r from-green-400 to-blue-500 focus:from-pink-500 focus:to-yellow-500">Confarm</button>
+            </div>
+
+        </section>
+    </header>
+    <script src="js/banking-page.js"></script>
+</body>
+
+</html>
